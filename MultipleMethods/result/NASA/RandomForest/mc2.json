@@ -1,0 +1,37 @@
+{
+    "method": "RandomForest",
+    "dataset": "NASA",
+    "subDataset": "mc2",
+    "result": [
+        {
+            "train samples": "12",
+            "defective train samples": "4",
+            "precision": 0.6190476190476191,
+            "recall": 0.325,
+            "pf": 0.1095890410958904,
+            "F-measure": 0.42622950819672134,
+            "accuracy": 0.6902654867256637,
+            "AUC": 0.6077054794520548
+        },
+        {
+            "train samples": "24",
+            "defective train samples": "8",
+            "precision": 0.375,
+            "recall": 0.25,
+            "pf": 0.23076923076923078,
+            "F-measure": 0.3,
+            "accuracy": 0.5841584158415841,
+            "AUC": 0.5096153846153846
+        },
+        {
+            "train samples": "37",
+            "defective train samples": "13",
+            "precision": 0.5555555555555556,
+            "recall": 0.3225806451612903,
+            "pf": 0.14035087719298245,
+            "F-measure": 0.40816326530612246,
+            "accuracy": 0.6704545454545454,
+            "AUC": 0.5911148839841539
+        }
+    ]
+}

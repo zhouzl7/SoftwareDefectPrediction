@@ -10,6 +10,7 @@
 from DataProcess import load_data, train_data_process, test_data_process
 from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_score, accuracy_score
 from pyod.models.xgbod import XGBOD
+from sklearn.ensemble import RandomForestClassifier
 import json
 import os
 import numpy as np
@@ -18,7 +19,7 @@ import numpy as np
 def run(data_train, data_test):
     X_train, y_train = train_data_process(data_train)
     X_test, y_true = test_data_process(data_test)
-    clf = XGBOD(random_state=42)
+    clf = RandomForestClassifier(random_state=42)
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
     TP = 0
@@ -61,7 +62,7 @@ if __name__ == '__main__':
     NASA = ['cm1', 'kc3', 'mc2', 'mw1', 'pc1', 'pc3', 'pc4', 'pc5']
     CK = ['ant1', 'ivy2', 'jedit4', 'lucene2', 'synapse1', 'velocity1', 'xalan2']
 
-    clf_name = 'XGBOD'
+    clf_name = 'RandomForest'
 
     for dataset in NASA:
         data_name_train = dataset + 'train'
