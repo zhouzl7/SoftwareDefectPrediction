@@ -1,0 +1,37 @@
+{
+    "method": "RandomForestClassifier",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.5833333333333334,
+            "recall": 0.6418338108882522,
+            "pf": 0.4266666666666667,
+            "F-measure": 0.6111869031377899,
+            "accuracy": 0.606353591160221,
+            "AUC": 0.6075835721107927
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.6441947565543071,
+            "recall": 0.5548387096774193,
+            "pf": 0.2852852852852853,
+            "F-measure": 0.5961871750433275,
+            "accuracy": 0.6376360808709176,
+            "AUC": 0.634776712196067
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.6587837837837838,
+            "recall": 0.7195571955719557,
+            "pf": 0.3458904109589041,
+            "F-measure": 0.6878306878306878,
+            "accuracy": 0.6856127886323268,
+            "AUC": 0.6868333923065258
+        }
+    ]
+}

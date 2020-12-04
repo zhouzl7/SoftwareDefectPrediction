@@ -1,0 +1,37 @@
+{
+    "method": "RandomForestClassifier",
+    "dataset": "CK",
+    "subDataset": "ant1",
+    "result": [
+        {
+            "train samples": "34",
+            "defective train samples": "9",
+            "precision": 0.5348837209302325,
+            "recall": 0.27710843373493976,
+            "pf": 0.08547008547008547,
+            "F-measure": 0.36507936507936506,
+            "accuracy": 0.7476340694006309,
+            "AUC": 0.5958191741324271
+        },
+        {
+            "train samples": "69",
+            "defective train samples": "18",
+            "precision": 0.6440677966101694,
+            "recall": 0.5135135135135135,
+            "pf": 0.10096153846153846,
+            "F-measure": 0.5714285714285714,
+            "accuracy": 0.7978723404255319,
+            "AUC": 0.7062759875259876
+        },
+        {
+            "train samples": "104",
+            "defective train samples": "27",
+            "precision": 0.6727272727272727,
+            "recall": 0.5692307692307692,
+            "pf": 0.0989010989010989,
+            "F-measure": 0.6166666666666667,
+            "accuracy": 0.8137651821862348,
+            "AUC": 0.7351648351648351
+        }
+    ]
+}

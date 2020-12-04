@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.6703910614525139,
+            "recall": 0.3438395415472779,
+            "pf": 0.15733333333333333,
+            "F-measure": 0.4545454545454545,
+            "accuracy": 0.6022099447513812,
+            "AUC": 0.5932531041069723
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.6282722513089005,
+            "recall": 0.3870967741935484,
+            "pf": 0.2132132132132132,
+            "F-measure": 0.4790419161676647,
+            "accuracy": 0.5940902021772939,
+            "AUC": 0.5869417804901677
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.7121212121212122,
+            "recall": 0.17343173431734318,
+            "pf": 0.06506849315068493,
+            "F-measure": 0.2789317507418398,
+            "accuracy": 0.5683836589698046,
+            "AUC": 0.5541816205833292
+        }
+    ]
+}

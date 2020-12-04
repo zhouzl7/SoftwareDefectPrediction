@@ -1,0 +1,37 @@
+{
+    "method": "QuadraticDiscriminantAnalysis",
+    "dataset": "NASA",
+    "subDataset": "mc2",
+    "result": [
+        {
+            "train samples": "12",
+            "defective train samples": "4",
+            "precision": 0.35714285714285715,
+            "recall": 1.0,
+            "pf": 0.9863013698630136,
+            "F-measure": 0.5263157894736842,
+            "accuracy": 0.36283185840707965,
+            "AUC": 0.5068493150684932
+        },
+        {
+            "train samples": "24",
+            "defective train samples": "8",
+            "precision": 0.4,
+            "recall": 0.8888888888888888,
+            "pf": 0.7384615384615385,
+            "F-measure": 0.5517241379310346,
+            "accuracy": 0.48514851485148514,
+            "AUC": 0.5752136752136752
+        },
+        {
+            "train samples": "37",
+            "defective train samples": "13",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.017543859649122806,
+            "F-measure": 0.0,
+            "accuracy": 0.6363636363636364,
+            "AUC": 0.49122807017543857
+        }
+    ]
+}

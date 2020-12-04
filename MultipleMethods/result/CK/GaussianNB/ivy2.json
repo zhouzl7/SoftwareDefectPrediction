@@ -1,0 +1,37 @@
+{
+    "method": "GaussianNB",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.19047619047619047,
+            "recall": 0.3333333333333333,
+            "pf": 0.18149466192170818,
+            "F-measure": 0.24242424242424246,
+            "accuracy": 0.7634069400630915,
+            "AUC": 0.5759193357058126
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.35294117647058826,
+            "recall": 0.375,
+            "pf": 0.088,
+            "F-measure": 0.3636363636363636,
+            "accuracy": 0.851063829787234,
+            "AUC": 0.6435
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.36363636363636365,
+            "recall": 0.42857142857142855,
+            "pf": 0.0958904109589041,
+            "F-measure": 0.3934426229508197,
+            "accuracy": 0.8502024291497976,
+            "AUC": 0.6663405088062623
+        }
+    ]
+}

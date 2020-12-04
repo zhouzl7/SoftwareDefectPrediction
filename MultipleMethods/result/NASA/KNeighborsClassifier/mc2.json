@@ -1,0 +1,37 @@
+{
+    "method": "KNeighborsClassifier",
+    "dataset": "NASA",
+    "subDataset": "mc2",
+    "result": [
+        {
+            "train samples": "12",
+            "defective train samples": "4",
+            "precision": 0.65,
+            "recall": 0.325,
+            "pf": 0.0958904109589041,
+            "F-measure": 0.43333333333333335,
+            "accuracy": 0.6991150442477876,
+            "AUC": 0.614554794520548
+        },
+        {
+            "train samples": "24",
+            "defective train samples": "8",
+            "precision": 0.47058823529411764,
+            "recall": 0.2222222222222222,
+            "pf": 0.13846153846153847,
+            "F-measure": 0.3018867924528302,
+            "accuracy": 0.6336633663366337,
+            "AUC": 0.541880341880342
+        },
+        {
+            "train samples": "37",
+            "defective train samples": "13",
+            "precision": 0.6,
+            "recall": 0.3870967741935484,
+            "pf": 0.14035087719298245,
+            "F-measure": 0.47058823529411764,
+            "accuracy": 0.6931818181818182,
+            "AUC": 0.623372948500283
+        }
+    ]
+}

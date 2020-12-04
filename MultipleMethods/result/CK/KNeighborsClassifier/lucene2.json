@@ -1,0 +1,37 @@
+{
+    "method": "KNeighborsClassifier",
+    "dataset": "CK",
+    "subDataset": "lucene2",
+    "result": [
+        {
+            "train samples": "33",
+            "defective train samples": "20",
+            "precision": 0.6108108108108108,
+            "recall": 0.6174863387978142,
+            "pf": 0.5806451612903226,
+            "F-measure": 0.6141304347826086,
+            "accuracy": 0.5374592833876222,
+            "AUC": 0.5184205887537459
+        },
+        {
+            "train samples": "67",
+            "defective train samples": "40",
+            "precision": 0.6613756613756614,
+            "recall": 0.7668711656441718,
+            "pf": 0.5818181818181818,
+            "F-measure": 0.7102272727272727,
+            "accuracy": 0.6263736263736264,
+            "AUC": 0.592526491912995
+        },
+        {
+            "train samples": "101",
+            "defective train samples": "60",
+            "precision": 0.6811594202898551,
+            "recall": 0.6573426573426573,
+            "pf": 0.4583333333333333,
+            "F-measure": 0.6690391459074733,
+            "accuracy": 0.6108786610878661,
+            "AUC": 0.599504662004662
+        }
+    ]
+}

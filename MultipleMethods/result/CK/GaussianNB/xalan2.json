@@ -1,0 +1,37 @@
+{
+    "method": "GaussianNB",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.589622641509434,
+            "recall": 0.35816618911174786,
+            "pf": 0.232,
+            "F-measure": 0.44563279857397503,
+            "accuracy": 0.5704419889502762,
+            "AUC": 0.5630830945558739
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.574585635359116,
+            "recall": 0.33548387096774196,
+            "pf": 0.23123123123123124,
+            "F-measure": 0.42362525458248473,
+            "accuracy": 0.5598755832037325,
+            "AUC": 0.5521263198682553
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.6451612903225806,
+            "recall": 0.2952029520295203,
+            "pf": 0.1506849315068493,
+            "F-measure": 0.4050632911392405,
+            "accuracy": 0.5825932504440497,
+            "AUC": 0.5722590102613355
+        }
+    ]
+}

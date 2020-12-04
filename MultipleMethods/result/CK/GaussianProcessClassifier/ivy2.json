@@ -1,0 +1,37 @@
+{
+    "method": "GaussianProcessClassifier",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.5,
+            "recall": 0.19444444444444445,
+            "pf": 0.02491103202846975,
+            "F-measure": 0.28,
+            "accuracy": 0.886435331230284,
+            "AUC": 0.5847667062079873
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.5,
+            "recall": 0.1875,
+            "pf": 0.024,
+            "F-measure": 0.2727272727272727,
+            "accuracy": 0.8865248226950354,
+            "AUC": 0.58175
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.35714285714285715,
+            "recall": 0.35714285714285715,
+            "pf": 0.0821917808219178,
+            "F-measure": 0.35714285714285715,
+            "accuracy": 0.854251012145749,
+            "AUC": 0.6374755381604698
+        }
+    ]
+}

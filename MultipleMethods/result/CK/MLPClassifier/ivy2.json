@@ -1,0 +1,37 @@
+{
+    "method": "MLPClassifier",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.2608695652173913,
+            "recall": 0.16666666666666666,
+            "pf": 0.060498220640569395,
+            "F-measure": 0.20338983050847456,
+            "accuracy": 0.8517350157728707,
+            "AUC": 0.5530842230130486
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.45454545454545453,
+            "recall": 0.15625,
+            "pf": 0.024,
+            "F-measure": 0.2325581395348837,
+            "accuracy": 0.8829787234042553,
+            "AUC": 0.566125
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.30303030303030304,
+            "recall": 0.35714285714285715,
+            "pf": 0.1050228310502283,
+            "F-measure": 0.32786885245901637,
+            "accuracy": 0.8340080971659919,
+            "AUC": 0.6260600130463144
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "method": "KNeighborsClassifier",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.6209150326797386,
+            "recall": 0.5444126074498568,
+            "pf": 0.30933333333333335,
+            "F-measure": 0.5801526717557252,
+            "accuracy": 0.6201657458563536,
+            "AUC": 0.6175396370582618
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.5955414012738853,
+            "recall": 0.603225806451613,
+            "pf": 0.3813813813813814,
+            "F-measure": 0.5993589743589743,
+            "accuracy": 0.6111975116640747,
+            "AUC": 0.6109222125351158
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.59,
+            "recall": 0.6531365313653137,
+            "pf": 0.4212328767123288,
+            "F-measure": 0.6199649737302977,
+            "accuracy": 0.6145648312611013,
+            "AUC": 0.6159518273264925
+        }
+    ]
+}

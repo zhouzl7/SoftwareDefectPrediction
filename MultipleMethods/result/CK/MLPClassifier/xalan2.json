@@ -1,0 +1,37 @@
+{
+    "method": "MLPClassifier",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.5935828877005348,
+            "recall": 0.6361031518624641,
+            "pf": 0.4053333333333333,
+            "F-measure": 0.6141078838174274,
+            "accuracy": 0.6146408839779005,
+            "AUC": 0.6153849092645655
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.5975232198142415,
+            "recall": 0.6225806451612903,
+            "pf": 0.39039039039039036,
+            "F-measure": 0.6097946287519748,
+            "accuracy": 0.6158631415241057,
+            "AUC": 0.6160951273854499
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.6186046511627907,
+            "recall": 0.4907749077490775,
+            "pf": 0.2808219178082192,
+            "F-measure": 0.5473251028806585,
+            "accuracy": 0.6092362344582594,
+            "AUC": 0.6049764949704292
+        }
+    ]
+}

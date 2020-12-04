@@ -1,0 +1,37 @@
+{
+    "method": "QuadraticDiscriminantAnalysis",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.7536231884057971,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.7551020408163265,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.6,
+            "recall": 0.05660377358490566,
+            "pf": 0.012345679012345678,
+            "F-measure": 0.10344827586206896,
+            "accuracy": 0.7581395348837209,
+            "AUC": 0.52212904728628
+        }
+    ]
+}

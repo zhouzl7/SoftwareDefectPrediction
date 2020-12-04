@@ -1,0 +1,37 @@
+{
+    "method": "AdaBoostClassifier",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.4536082474226804,
+            "recall": 0.6470588235294118,
+            "pf": 0.2548076923076923,
+            "F-measure": 0.5333333333333333,
+            "accuracy": 0.7210144927536232,
+            "AUC": 0.6961255656108598
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.515625,
+            "recall": 0.55,
+            "pf": 0.16756756756756758,
+            "F-measure": 0.5322580645161291,
+            "accuracy": 0.763265306122449,
+            "AUC": 0.6912162162162162
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.4791666666666667,
+            "recall": 0.4339622641509434,
+            "pf": 0.15432098765432098,
+            "F-measure": 0.4554455445544555,
+            "accuracy": 0.7441860465116279,
+            "AUC": 0.6398206382483113
+        }
+    ]
+}

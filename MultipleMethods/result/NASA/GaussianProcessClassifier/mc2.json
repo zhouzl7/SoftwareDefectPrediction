@@ -1,0 +1,37 @@
+{
+    "method": "GaussianProcessClassifier",
+    "dataset": "NASA",
+    "subDataset": "mc2",
+    "result": [
+        {
+            "train samples": "12",
+            "defective train samples": "4",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0136986301369863,
+            "F-measure": 0.0,
+            "accuracy": 0.6371681415929203,
+            "AUC": 0.4931506849315068
+        },
+        {
+            "train samples": "24",
+            "defective train samples": "8",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.6435643564356436,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "37",
+            "defective train samples": "13",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.6477272727272727,
+            "AUC": 0.5
+        }
+    ]
+}

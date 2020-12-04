@@ -1,0 +1,10 @@
+{
+    "method": "QuadraticDiscriminantAnalysis",
+    "dataset": "CK",
+    "subDataset": "velocity1",
+    "result": [
+        "The number of classes has to be greater than one; got 1 class",
+        "The number of classes has to be greater than one; got 1 class",
+        "The number of classes has to be greater than one; got 1 class"
+    ]
+}

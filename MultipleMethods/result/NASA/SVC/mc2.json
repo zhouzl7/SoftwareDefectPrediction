@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "NASA",
+    "subDataset": "mc2",
+    "result": [
+        {
+            "train samples": "12",
+            "defective train samples": "4",
+            "precision": 0.8571428571428571,
+            "recall": 0.15,
+            "pf": 0.0136986301369863,
+            "F-measure": 0.2553191489361702,
+            "accuracy": 0.6902654867256637,
+            "AUC": 0.5681506849315068
+        },
+        {
+            "train samples": "24",
+            "defective train samples": "8",
+            "precision": 1.0,
+            "recall": 0.027777777777777776,
+            "pf": 0.0,
+            "F-measure": 0.05405405405405406,
+            "accuracy": 0.6534653465346535,
+            "AUC": 0.5138888888888888
+        },
+        {
+            "train samples": "37",
+            "defective train samples": "13",
+            "precision": 0.7333333333333333,
+            "recall": 0.3548387096774194,
+            "pf": 0.07017543859649122,
+            "F-measure": 0.47826086956521735,
+            "accuracy": 0.7272727272727273,
+            "AUC": 0.6423316355404641
+        }
+    ]
+}

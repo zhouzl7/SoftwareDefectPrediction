@@ -1,0 +1,37 @@
+{
+    "method": "DecisionTreeClassifier",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.39344262295081966,
+            "recall": 0.7058823529411765,
+            "pf": 0.3557692307692308,
+            "F-measure": 0.5052631578947367,
+            "accuracy": 0.6594202898550725,
+            "AUC": 0.6750565610859729
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.4186046511627907,
+            "recall": 0.6,
+            "pf": 0.2702702702702703,
+            "F-measure": 0.49315068493150693,
+            "accuracy": 0.6979591836734694,
+            "AUC": 0.664864864864865
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.5357142857142857,
+            "recall": 0.5660377358490566,
+            "pf": 0.16049382716049382,
+            "F-measure": 0.5504587155963302,
+            "accuracy": 0.772093023255814,
+            "AUC": 0.7027719543442813
+        }
+    ]
+}

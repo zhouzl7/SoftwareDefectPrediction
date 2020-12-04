@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.886435331230284,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.3333333333333333,
+            "recall": 0.03125,
+            "pf": 0.008,
+            "F-measure": 0.05714285714285714,
+            "accuracy": 0.8829787234042553,
+            "AUC": 0.511625
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0091324200913242,
+            "F-measure": 0.0,
+            "accuracy": 0.8785425101214575,
+            "AUC": 0.4954337899543379
+        }
+    ]
+}

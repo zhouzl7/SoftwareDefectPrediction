@@ -1,0 +1,37 @@
+{
+    "method": "MLPClassifier",
+    "dataset": "CK",
+    "subDataset": "ant1",
+    "result": [
+        {
+            "train samples": "34",
+            "defective train samples": "9",
+            "precision": 0.5423728813559322,
+            "recall": 0.3855421686746988,
+            "pf": 0.11538461538461539,
+            "F-measure": 0.4507042253521127,
+            "accuracy": 0.7539432176656151,
+            "AUC": 0.6350787766450416
+        },
+        {
+            "train samples": "69",
+            "defective train samples": "18",
+            "precision": 0.546875,
+            "recall": 0.47297297297297297,
+            "pf": 0.13942307692307693,
+            "F-measure": 0.5072463768115941,
+            "accuracy": 0.7588652482269503,
+            "AUC": 0.6667749480249481
+        },
+        {
+            "train samples": "104",
+            "defective train samples": "27",
+            "precision": 0.6410256410256411,
+            "recall": 0.38461538461538464,
+            "pf": 0.07692307692307693,
+            "F-measure": 0.4807692307692308,
+            "accuracy": 0.7813765182186235,
+            "AUC": 0.6538461538461539
+        }
+    ]
+}

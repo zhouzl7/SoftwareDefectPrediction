@@ -1,0 +1,37 @@
+{
+    "method": "RandomForestClassifier",
+    "dataset": "CK",
+    "subDataset": "velocity1",
+    "result": [
+        {
+            "train samples": "10",
+            "defective train samples": "10",
+            "precision": 1.0,
+            "recall": 1.0,
+            "pf": "no negative samples.",
+            "F-measure": 1.0,
+            "accuracy": 1.0,
+            "AUC": "Only one class present in y_true. ROC AUC score is not defined in that case."
+        },
+        {
+            "train samples": "20",
+            "defective train samples": "20",
+            "precision": 1.0,
+            "recall": 1.0,
+            "pf": "no negative samples.",
+            "F-measure": 1.0,
+            "accuracy": 1.0,
+            "AUC": "Only one class present in y_true. ROC AUC score is not defined in that case."
+        },
+        {
+            "train samples": "30",
+            "defective train samples": "30",
+            "precision": 1.0,
+            "recall": 1.0,
+            "pf": "no negative samples.",
+            "F-measure": 1.0,
+            "accuracy": 1.0,
+            "AUC": "Only one class present in y_true. ROC AUC score is not defined in that case."
+        }
+    ]
+}

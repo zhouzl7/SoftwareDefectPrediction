@@ -1,0 +1,37 @@
+{
+    "method": "QuadraticDiscriminantAnalysis",
+    "dataset": "CK",
+    "subDataset": "ant1",
+    "result": [
+        {
+            "train samples": "34",
+            "defective train samples": "9",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.7381703470031545,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "69",
+            "defective train samples": "18",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.7375886524822695,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "104",
+            "defective train samples": "27",
+            "precision": 0.5806451612903226,
+            "recall": 0.5538461538461539,
+            "pf": 0.14285714285714285,
+            "F-measure": 0.5669291338582677,
+            "accuracy": 0.7773279352226721,
+            "AUC": 0.7054945054945055
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "NASA",
+    "subDataset": "pc4",
+    "result": [
+        {
+            "train samples": "128",
+            "defective train samples": "17",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8619499568593615,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "257",
+            "defective train samples": "35",
+            "precision": 1.0,
+            "recall": 0.007042253521126761,
+            "pf": 0.0,
+            "F-measure": 0.013986013986013986,
+            "accuracy": 0.8631067961165049,
+            "AUC": 0.5035211267605634
+        },
+        {
+            "train samples": "386",
+            "defective train samples": "53",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8623751387347391,
+            "AUC": 0.5
+        }
+    ]
+}

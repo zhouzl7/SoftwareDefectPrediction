@@ -1,0 +1,37 @@
+{
+    "method": "RandomForestClassifier",
+    "dataset": "NASA",
+    "subDataset": "pc4",
+    "result": [
+        {
+            "train samples": "128",
+            "defective train samples": "17",
+            "precision": 0.48717948717948717,
+            "recall": 0.11875,
+            "pf": 0.02002002002002002,
+            "F-measure": 0.19095477386934673,
+            "accuracy": 0.8610871440897325,
+            "AUC": 0.54936498998999
+        },
+        {
+            "train samples": "257",
+            "defective train samples": "35",
+            "precision": 0.5384615384615384,
+            "recall": 0.19718309859154928,
+            "pf": 0.02702702702702703,
+            "F-measure": 0.28865979381443296,
+            "accuracy": 0.8660194174757282,
+            "AUC": 0.5850780357822611
+        },
+        {
+            "train samples": "386",
+            "defective train samples": "53",
+            "precision": 0.7916666666666666,
+            "recall": 0.3064516129032258,
+            "pf": 0.01287001287001287,
+            "F-measure": 0.4418604651162791,
+            "accuracy": 0.8934517203107658,
+            "AUC": 0.6467908000166065
+        }
+    ]
+}

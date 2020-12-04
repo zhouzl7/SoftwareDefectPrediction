@@ -1,0 +1,37 @@
+{
+    "method": "MLPClassifier",
+    "dataset": "NASA",
+    "subDataset": "mw1",
+    "result": [
+        {
+            "train samples": "24",
+            "defective train samples": "2",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0196078431372549,
+            "F-measure": 0.0,
+            "accuracy": 0.8733624454148472,
+            "AUC": 0.49019607843137253
+        },
+        {
+            "train samples": "50",
+            "defective train samples": "5",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.04419889502762431,
+            "F-measure": 0.0,
+            "accuracy": 0.8522167487684729,
+            "AUC": 0.47790055248618785
+        },
+        {
+            "train samples": "75",
+            "defective train samples": "8",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.006289308176100629,
+            "F-measure": 0.0,
+            "accuracy": 0.8876404494382022,
+            "AUC": 0.4968553459119497
+        }
+    ]
+}

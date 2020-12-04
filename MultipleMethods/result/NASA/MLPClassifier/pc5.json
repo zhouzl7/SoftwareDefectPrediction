@@ -1,0 +1,37 @@
+{
+    "method": "MLPClassifier",
+    "dataset": "NASA",
+    "subDataset": "pc5",
+    "result": [
+        {
+            "train samples": "171",
+            "defective train samples": "47",
+            "precision": 0.14695945945945946,
+            "recall": 0.20518867924528303,
+            "pf": 0.4525089605734767,
+            "F-measure": 0.17125984251968504,
+            "accuracy": 0.45324675324675323,
+            "AUC": 0.3763398593359032
+        },
+        {
+            "train samples": "342",
+            "defective train samples": "94",
+            "precision": 0.2788104089219331,
+            "recall": 0.9946949602122016,
+            "pf": 0.9778225806451613,
+            "F-measure": 0.4355400696864112,
+            "accuracy": 0.2899926953981008,
+            "AUC": 0.5084361897835202
+        },
+        {
+            "train samples": "513",
+            "defective train samples": "141",
+            "precision": 0.28761061946902655,
+            "recall": 0.9848484848484849,
+            "pf": 0.9274193548387096,
+            "F-measure": 0.4452054794520548,
+            "accuracy": 0.32387312186978295,
+            "AUC": 0.5287145650048877
+        }
+    ]
+}

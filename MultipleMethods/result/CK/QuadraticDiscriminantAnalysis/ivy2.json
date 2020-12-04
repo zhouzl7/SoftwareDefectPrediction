@@ -1,0 +1,37 @@
+{
+    "method": "QuadraticDiscriminantAnalysis",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.886435331230284,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8865248226950354,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8866396761133604,
+            "AUC": 0.5
+        }
+    ]
+}

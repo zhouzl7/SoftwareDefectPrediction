@@ -1,0 +1,37 @@
+{
+    "method": "DecisionTreeClassifier",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.32142857142857145,
+            "recall": 0.25,
+            "pf": 0.06761565836298933,
+            "F-measure": 0.28125000000000006,
+            "accuracy": 0.8548895899053628,
+            "AUC": 0.5911921708185053
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.24242424242424243,
+            "recall": 0.25,
+            "pf": 0.1,
+            "F-measure": 0.24615384615384617,
+            "accuracy": 0.8262411347517731,
+            "AUC": 0.575
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.24324324324324326,
+            "recall": 0.32142857142857145,
+            "pf": 0.1278538812785388,
+            "F-measure": 0.27692307692307694,
+            "accuracy": 0.8097165991902834,
+            "AUC": 0.5967873450750163
+        }
+    ]
+}

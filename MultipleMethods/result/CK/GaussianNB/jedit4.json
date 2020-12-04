@@ -1,0 +1,37 @@
+{
+    "method": "GaussianNB",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.22797927461139897,
+            "recall": 0.6470588235294118,
+            "pf": 0.7163461538461539,
+            "F-measure": 0.3371647509578544,
+            "accuracy": 0.37318840579710144,
+            "AUC": 0.46535633484162897
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.5423728813559322,
+            "recall": 0.5333333333333333,
+            "pf": 0.14594594594594595,
+            "F-measure": 0.5378151260504201,
+            "accuracy": 0.7755102040816326,
+            "AUC": 0.6936936936936936
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.4925373134328358,
+            "recall": 0.6226415094339622,
+            "pf": 0.20987654320987653,
+            "F-measure": 0.55,
+            "accuracy": 0.7488372093023256,
+            "AUC": 0.7063824831120429
+        }
+    ]
+}

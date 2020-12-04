@@ -1,0 +1,37 @@
+{
+    "method": "DecisionTreeClassifier",
+    "dataset": "CK",
+    "subDataset": "lucene2",
+    "result": [
+        {
+            "train samples": "33",
+            "defective train samples": "20",
+            "precision": 0.624390243902439,
+            "recall": 0.6994535519125683,
+            "pf": 0.6209677419354839,
+            "F-measure": 0.6597938144329897,
+            "accuracy": 0.5700325732899023,
+            "AUC": 0.5392429049885422
+        },
+        {
+            "train samples": "67",
+            "defective train samples": "40",
+            "precision": 0.7006369426751592,
+            "recall": 0.6748466257668712,
+            "pf": 0.42727272727272725,
+            "F-measure": 0.6875,
+            "accuracy": 0.6336996336996337,
+            "AUC": 0.623786949247072
+        },
+        {
+            "train samples": "101",
+            "defective train samples": "60",
+            "precision": 0.676056338028169,
+            "recall": 0.6713286713286714,
+            "pf": 0.4791666666666667,
+            "F-measure": 0.6736842105263159,
+            "accuracy": 0.6108786610878661,
+            "AUC": 0.5960810023310023
+        }
+    ]
+}

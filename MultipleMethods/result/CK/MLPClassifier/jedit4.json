@@ -1,0 +1,37 @@
+{
+    "method": "MLPClassifier",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.30120481927710846,
+            "recall": 0.36764705882352944,
+            "pf": 0.27884615384615385,
+            "F-measure": 0.3311258278145696,
+            "accuracy": 0.6340579710144928,
+            "AUC": 0.5444004524886878
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.5161290322580645,
+            "recall": 0.5333333333333333,
+            "pf": 0.16216216216216217,
+            "F-measure": 0.5245901639344263,
+            "accuracy": 0.763265306122449,
+            "AUC": 0.6855855855855856
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.48717948717948717,
+            "recall": 0.3584905660377358,
+            "pf": 0.12345679012345678,
+            "F-measure": 0.41304347826086957,
+            "accuracy": 0.7488372093023256,
+            "AUC": 0.6175168879571394
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "method": "GaussianProcessClassifier",
+    "dataset": "CK",
+    "subDataset": "velocity1",
+    "result": [
+        "GaussianProcessClassifier requires 2 or more distinct classes; got 1 class (only class 1 is present)",
+        "GaussianProcessClassifier requires 2 or more distinct classes; got 1 class (only class 1 is present)",
+        "GaussianProcessClassifier requires 2 or more distinct classes; got 1 class (only class 1 is present)"
+    ]
+}

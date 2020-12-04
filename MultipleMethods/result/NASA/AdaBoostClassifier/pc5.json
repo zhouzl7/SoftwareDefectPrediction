@@ -1,0 +1,37 @@
+{
+    "method": "AdaBoostClassifier",
+    "dataset": "NASA",
+    "subDataset": "pc5",
+    "result": [
+        {
+            "train samples": "171",
+            "defective train samples": "47",
+            "precision": 0.4470588235294118,
+            "recall": 0.3584905660377358,
+            "pf": 0.16845878136200718,
+            "F-measure": 0.3979057591623037,
+            "accuracy": 0.7012987012987013,
+            "AUC": 0.5950158923378642
+        },
+        {
+            "train samples": "342",
+            "defective train samples": "94",
+            "precision": 0.5186567164179104,
+            "recall": 0.3687002652519894,
+            "pf": 0.13004032258064516,
+            "F-measure": 0.43100775193798446,
+            "accuracy": 0.7319211102994887,
+            "AUC": 0.619329971335672
+        },
+        {
+            "train samples": "513",
+            "defective train samples": "141",
+            "precision": 0.5358851674641149,
+            "recall": 0.3393939393939394,
+            "pf": 0.11175115207373272,
+            "F-measure": 0.4155844155844156,
+            "accuracy": 0.7370617696160268,
+            "AUC": 0.6138213936601032
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "method": "AdaBoostClassifier",
+    "dataset": "CK",
+    "subDataset": "lucene2",
+    "result": [
+        {
+            "train samples": "33",
+            "defective train samples": "20",
+            "precision": 0.6451612903225806,
+            "recall": 0.546448087431694,
+            "pf": 0.4435483870967742,
+            "F-measure": 0.591715976331361,
+            "accuracy": 0.5504885993485342,
+            "AUC": 0.55144985016746
+        },
+        {
+            "train samples": "67",
+            "defective train samples": "40",
+            "precision": 0.6927710843373494,
+            "recall": 0.7055214723926381,
+            "pf": 0.4636363636363636,
+            "F-measure": 0.6990881458966565,
+            "accuracy": 0.6373626373626373,
+            "AUC": 0.6209425543781372
+        },
+        {
+            "train samples": "101",
+            "defective train samples": "60",
+            "precision": 0.76,
+            "recall": 0.6643356643356644,
+            "pf": 0.3125,
+            "F-measure": 0.7089552238805971,
+            "accuracy": 0.6736401673640168,
+            "AUC": 0.6759178321678321
+        }
+    ]
+}

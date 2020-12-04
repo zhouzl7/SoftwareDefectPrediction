@@ -1,0 +1,37 @@
+{
+    "method": "RandomForestClassifier",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.5921052631578947,
+            "recall": 0.6617647058823529,
+            "pf": 0.14903846153846154,
+            "F-measure": 0.625,
+            "accuracy": 0.8043478260869565,
+            "AUC": 0.7563631221719457
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.5737704918032787,
+            "recall": 0.5833333333333334,
+            "pf": 0.14054054054054055,
+            "F-measure": 0.5785123966942148,
+            "accuracy": 0.7918367346938775,
+            "AUC": 0.7213963963963965
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.6585365853658537,
+            "recall": 0.5094339622641509,
+            "pf": 0.08641975308641975,
+            "F-measure": 0.574468085106383,
+            "accuracy": 0.813953488372093,
+            "AUC": 0.7115071045888657
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "method": "DecisionTreeClassifier",
+    "dataset": "NASA",
+    "subDataset": "pc4",
+    "result": [
+        {
+            "train samples": "128",
+            "defective train samples": "17",
+            "precision": 0.452,
+            "recall": 0.70625,
+            "pf": 0.13713713713713713,
+            "F-measure": 0.551219512195122,
+            "accuracy": 0.8412424503882657,
+            "AUC": 0.7845564314314314
+        },
+        {
+            "train samples": "257",
+            "defective train samples": "35",
+            "precision": 0.41818181818181815,
+            "recall": 0.4859154929577465,
+            "pf": 0.10810810810810811,
+            "F-measure": 0.4495114006514658,
+            "accuracy": 0.8359223300970874,
+            "AUC": 0.6889036924248192
+        },
+        {
+            "train samples": "386",
+            "defective train samples": "53",
+            "precision": 0.4921875,
+            "recall": 0.5080645161290323,
+            "pf": 0.08365508365508366,
+            "F-measure": 0.5,
+            "accuracy": 0.8601553829078802,
+            "AUC": 0.7122047162369742
+        }
+    ]
+}

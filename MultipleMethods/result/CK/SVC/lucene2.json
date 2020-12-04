@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "CK",
+    "subDataset": "lucene2",
+    "result": [
+        {
+            "train samples": "33",
+            "defective train samples": "20",
+            "precision": 0.5858585858585859,
+            "recall": 0.9508196721311475,
+            "pf": 0.9919354838709677,
+            "F-measure": 0.725,
+            "accuracy": 0.5700325732899023,
+            "AUC": 0.47944209413008987
+        },
+        {
+            "train samples": "67",
+            "defective train samples": "40",
+            "precision": 0.5970695970695971,
+            "recall": 1.0,
+            "pf": 1.0,
+            "F-measure": 0.7477064220183486,
+            "accuracy": 0.5970695970695971,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "101",
+            "defective train samples": "60",
+            "precision": 0.5983263598326359,
+            "recall": 1.0,
+            "pf": 1.0,
+            "F-measure": 0.7486910994764399,
+            "accuracy": 0.5983263598326359,
+            "AUC": 0.5
+        }
+    ]
+}

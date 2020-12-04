@@ -1,0 +1,37 @@
+{
+    "method": "GaussianNB",
+    "dataset": "CK",
+    "subDataset": "synapse1",
+    "result": [
+        {
+            "train samples": "25",
+            "defective train samples": "8",
+            "precision": 0.43902439024390244,
+            "recall": 0.23076923076923078,
+            "pf": 0.1503267973856209,
+            "F-measure": 0.3025210084033614,
+            "accuracy": 0.6406926406926406,
+            "AUC": 0.540221216691805
+        },
+        {
+            "train samples": "51",
+            "defective train samples": "17",
+            "precision": 0.5340909090909091,
+            "recall": 0.6811594202898551,
+            "pf": 0.3014705882352941,
+            "F-measure": 0.5987261146496815,
+            "accuracy": 0.6926829268292682,
+            "AUC": 0.6898444160272804
+        },
+        {
+            "train samples": "76",
+            "defective train samples": "25",
+            "precision": 0.625,
+            "recall": 0.6557377049180327,
+            "pf": 0.20168067226890757,
+            "F-measure": 0.64,
+            "accuracy": 0.75,
+            "AUC": 0.7270285163245626
+        }
+    ]
+}

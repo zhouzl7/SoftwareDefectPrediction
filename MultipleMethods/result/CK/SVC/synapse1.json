@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "CK",
+    "subDataset": "synapse1",
+    "result": [
+        {
+            "train samples": "25",
+            "defective train samples": "8",
+            "precision": 0.574468085106383,
+            "recall": 0.34615384615384615,
+            "pf": 0.13071895424836602,
+            "F-measure": 0.43200000000000005,
+            "accuracy": 0.6926406926406926,
+            "AUC": 0.6077174459527401
+        },
+        {
+            "train samples": "51",
+            "defective train samples": "17",
+            "precision": 0.6037735849056604,
+            "recall": 0.463768115942029,
+            "pf": 0.15441176470588236,
+            "F-measure": 0.5245901639344263,
+            "accuracy": 0.7170731707317073,
+            "AUC": 0.6546781756180733
+        },
+        {
+            "train samples": "76",
+            "defective train samples": "25",
+            "precision": 0.6341463414634146,
+            "recall": 0.4262295081967213,
+            "pf": 0.12605042016806722,
+            "F-measure": 0.5098039215686274,
+            "accuracy": 0.7222222222222222,
+            "AUC": 0.6500895440143271
+        }
+    ]
+}

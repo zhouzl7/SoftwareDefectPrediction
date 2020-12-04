@@ -1,0 +1,37 @@
+{
+    "method": "GaussianProcessClassifier",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.5833333333333334,
+            "recall": 0.12034383954154727,
+            "pf": 0.08,
+            "F-measure": 0.1995249406175772,
+            "accuracy": 0.5345303867403315,
+            "AUC": 0.5201719197707737
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.5376344086021505,
+            "recall": 0.16129032258064516,
+            "pf": 0.12912912912912913,
+            "F-measure": 0.24813895781637718,
+            "accuracy": 0.5287713841368584,
+            "AUC": 0.516080596725758
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.5833333333333334,
+            "recall": 0.5166051660516605,
+            "pf": 0.3424657534246575,
+            "F-measure": 0.5479452054794521,
+            "accuracy": 0.5896980461811723,
+            "AUC": 0.5870697063135015
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "method": "GaussianProcessClassifier",
+    "dataset": "NASA",
+    "subDataset": "pc1",
+    "result": [
+        {
+            "train samples": "70",
+            "defective train samples": "6",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.9133858267716536,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "140",
+            "defective train samples": "12",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.9132743362831859,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "211",
+            "defective train samples": "18",
+            "precision": 0.25,
+            "recall": 0.046511627906976744,
+            "pf": 0.013303769401330377,
+            "F-measure": 0.07843137254901962,
+            "accuracy": 0.9048582995951417,
+            "AUC": 0.5166039292528232
+        }
+    ]
+}

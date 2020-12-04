@@ -1,0 +1,37 @@
+{
+    "method": "SVC",
+    "dataset": "NASA",
+    "subDataset": "kc3",
+    "result": [
+        {
+            "train samples": "18",
+            "defective train samples": "3",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8125,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "38",
+            "defective train samples": "7",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8141025641025641,
+            "AUC": 0.5
+        },
+        {
+            "train samples": "57",
+            "defective train samples": "10",
+            "precision": 0.0,
+            "recall": 0.0,
+            "pf": 0.0,
+            "F-measure": 0.0,
+            "accuracy": 0.8102189781021898,
+            "AUC": 0.5
+        }
+    ]
+}

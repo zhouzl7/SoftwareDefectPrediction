@@ -1,0 +1,37 @@
+{
+    "method": "GaussianNB",
+    "dataset": "NASA",
+    "subDataset": "pc5",
+    "result": [
+        {
+            "train samples": "171",
+            "defective train samples": "47",
+            "precision": 0.5882352941176471,
+            "recall": 0.14150943396226415,
+            "pf": 0.03763440860215054,
+            "F-measure": 0.22813688212927757,
+            "accuracy": 0.7363636363636363,
+            "AUC": 0.5519375126800569
+        },
+        {
+            "train samples": "342",
+            "defective train samples": "94",
+            "precision": 0.5575221238938053,
+            "recall": 0.16710875331564987,
+            "pf": 0.05040322580645161,
+            "F-measure": 0.2571428571428571,
+            "accuracy": 0.7341124908692477,
+            "AUC": 0.5583527637545991
+        },
+        {
+            "train samples": "513",
+            "defective train samples": "141",
+            "precision": 0.6507936507936508,
+            "recall": 0.12424242424242424,
+            "pf": 0.02534562211981567,
+            "F-measure": 0.20865139949109415,
+            "accuracy": 0.7404006677796328,
+            "AUC": 0.5494484010613043
+        }
+    ]
+}
