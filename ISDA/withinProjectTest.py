@@ -12,7 +12,7 @@ from DataProcess import load_data, train_data_process, test_data_process
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 
-def test(data_train, data_test):
+def run(data_train, data_test):
     X1, X2 = train_data_process(data_train)
     print(X1.shape, X2.shape)
 
@@ -31,4 +31,4 @@ if __name__ == '__main__':
     data_name_test = 'pc5test'
     filepath_test = './data/NASA/NASATest/' + data_name_test + '.mat'
     data1_test, data2_test, data3_test = load_data(filepath_test, data_name_test)
-    test(data3_train, data3_test)
+    run(data3_train, data3_test)

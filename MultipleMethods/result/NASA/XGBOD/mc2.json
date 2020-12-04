@@ -1,0 +1,37 @@
+{
+    "method": "XGBOD",
+    "dataset": "NASA",
+    "subDataset": "mc2",
+    "result": [
+        {
+            "train samples": "12",
+            "defective train samples": "4",
+            "precision": 0.4166666666666667,
+            "recall": 0.25,
+            "pf": 0.1917808219178082,
+            "F-measure": 0.3125,
+            "accuracy": 0.6106194690265486,
+            "AUC": 0.5291095890410958
+        },
+        {
+            "train samples": "24",
+            "defective train samples": "8",
+            "precision": 0.5,
+            "recall": 0.3055555555555556,
+            "pf": 0.16923076923076924,
+            "F-measure": 0.37931034482758624,
+            "accuracy": 0.6435643564356436,
+            "AUC": 0.5681623931623931
+        },
+        {
+            "train samples": "37",
+            "defective train samples": "13",
+            "precision": 0.4772727272727273,
+            "recall": 0.6774193548387096,
+            "pf": 0.40350877192982454,
+            "F-measure": 0.5599999999999999,
+            "accuracy": 0.625,
+            "AUC": 0.6369552914544426
+        }
+    ]
+}

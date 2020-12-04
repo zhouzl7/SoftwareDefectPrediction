@@ -1,0 +1,37 @@
+{
+    "method": "XGBOD",
+    "dataset": "CK",
+    "subDataset": "ant1",
+    "result": [
+        {
+            "train samples": "34",
+            "defective train samples": "9",
+            "precision": 0.532258064516129,
+            "recall": 0.39759036144578314,
+            "pf": 0.12393162393162394,
+            "F-measure": 0.4551724137931034,
+            "accuracy": 0.750788643533123,
+            "AUC": 0.6368293687570796
+        },
+        {
+            "train samples": "69",
+            "defective train samples": "18",
+            "precision": 0.5084745762711864,
+            "recall": 0.40540540540540543,
+            "pf": 0.13942307692307693,
+            "F-measure": 0.45112781954887216,
+            "accuracy": 0.7411347517730497,
+            "AUC": 0.6329911642411643
+        },
+        {
+            "train samples": "104",
+            "defective train samples": "27",
+            "precision": 0.5573770491803278,
+            "recall": 0.5230769230769231,
+            "pf": 0.14835164835164835,
+            "F-measure": 0.5396825396825397,
+            "accuracy": 0.7651821862348178,
+            "AUC": 0.6873626373626374
+        }
+    ]
+}

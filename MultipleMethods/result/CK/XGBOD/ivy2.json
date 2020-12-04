@@ -1,0 +1,37 @@
+{
+    "method": "XGBOD",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.3076923076923077,
+            "recall": 0.1111111111111111,
+            "pf": 0.03202846975088968,
+            "F-measure": 0.163265306122449,
+            "accuracy": 0.8706624605678234,
+            "AUC": 0.5395413206801107
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.38095238095238093,
+            "recall": 0.25,
+            "pf": 0.052,
+            "F-measure": 0.3018867924528302,
+            "accuracy": 0.8687943262411347,
+            "AUC": 0.599
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.3181818181818182,
+            "recall": 0.25,
+            "pf": 0.0684931506849315,
+            "F-measure": 0.28,
+            "accuracy": 0.854251012145749,
+            "AUC": 0.5907534246575342
+        }
+    ]
+}
