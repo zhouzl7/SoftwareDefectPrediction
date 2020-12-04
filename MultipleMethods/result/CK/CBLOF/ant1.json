@@ -1,0 +1,37 @@
+{
+    "method": "CBLOF",
+    "dataset": "CK",
+    "subDataset": "ant1",
+    "result": [
+        {
+            "train samples": "34",
+            "defective train samples": "9",
+            "precision": 0.5882352941176471,
+            "recall": 0.3614457831325301,
+            "pf": 0.08974358974358974,
+            "F-measure": 0.4477611940298508,
+            "accuracy": 0.7665615141955836,
+            "AUC": 0.6358510966944703
+        },
+        {
+            "train samples": "69",
+            "defective train samples": "18",
+            "precision": 0.7021276595744681,
+            "recall": 0.44594594594594594,
+            "pf": 0.0673076923076923,
+            "F-measure": 0.5454545454545454,
+            "accuracy": 0.8049645390070922,
+            "AUC": 0.6893191268191269
+        },
+        {
+            "train samples": "104",
+            "defective train samples": "27",
+            "precision": 0.5769230769230769,
+            "recall": 0.23076923076923078,
+            "pf": 0.06043956043956044,
+            "F-measure": 0.3296703296703296,
+            "accuracy": 0.7530364372469636,
+            "AUC": 0.5851648351648352
+        }
+    ]
+}

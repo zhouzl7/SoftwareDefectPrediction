@@ -1,0 +1,37 @@
+{
+    "method": "CBLOF",
+    "dataset": "NASA",
+    "subDataset": "pc5",
+    "result": [
+        {
+            "train samples": "171",
+            "defective train samples": "47",
+            "precision": 0.5605095541401274,
+            "recall": 0.20754716981132076,
+            "pf": 0.06182795698924731,
+            "F-measure": 0.3029259896729776,
+            "accuracy": 0.737012987012987,
+            "AUC": 0.5728596064110367
+        },
+        {
+            "train samples": "342",
+            "defective train samples": "94",
+            "precision": 0.547945205479452,
+            "recall": 0.21220159151193635,
+            "pf": 0.06653225806451613,
+            "F-measure": 0.3059273422562141,
+            "accuracy": 0.7348429510591673,
+            "AUC": 0.5728346667237102
+        },
+        {
+            "train samples": "513",
+            "defective train samples": "141",
+            "precision": 0.5504587155963303,
+            "recall": 0.18181818181818182,
+            "pf": 0.056451612903225805,
+            "F-measure": 0.27334851936218674,
+            "accuracy": 0.7337228714524207,
+            "AUC": 0.5626832844574781
+        }
+    ]
+}
