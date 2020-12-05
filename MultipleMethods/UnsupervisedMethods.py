@@ -70,7 +70,7 @@ if __name__ == '__main__':
     NASA = ['cm1', 'kc3', 'mc2', 'mw1', 'pc1', 'pc3', 'pc4', 'pc5']
     CK = ['ant1', 'ivy2', 'jedit4', 'lucene2', 'synapse1', 'velocity1', 'xalan2']
 
-    clf_name = 'AutoEncoder'
+    clf_name = 'CBLOF'
 
     for dataset in NASA:
         data_name_train = dataset + 'train'

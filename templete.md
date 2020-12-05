@@ -1,7 +1,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/ant1)</caption> 
+    <caption>ISDA (CK/ant1)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -63,7 +63,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/ivy2)</caption> 
+    <caption>ISDA (CK/ivy2)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -125,7 +125,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/jedit4)</caption> 
+    <caption>ISDA (CK/jedit4)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -187,7 +187,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/lucene2)</caption> 
+    <caption>ISDA (CK/lucene2)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -249,7 +249,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/synapse1)</caption> 
+    <caption>ISDA (CK/synapse1)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -311,7 +311,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/velocity1)</caption> 
+    <caption>ISDA (CK/velocity1)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -373,7 +373,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (CK/xalan2)</caption> 
+    <caption>ISDA (CK/xalan2)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -437,7 +437,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/cm1)</caption> 
+    <caption>ISDA (NASA/cm1)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -499,7 +499,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/kc3)</caption> 
+    <caption>ISDA (NASA/kc3)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -561,7 +561,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/mc2)</caption> 
+    <caption>ISDA (NASA/mc2)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -623,7 +623,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/mw1)</caption> 
+    <caption>ISDA (NASA/mw1)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -685,7 +685,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/pc1)</caption> 
+    <caption>ISDA (NASA/pc1)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -747,7 +747,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/pc3)</caption> 
+    <caption>ISDA (NASA/pc3)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -809,7 +809,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/pc4)</caption> 
+    <caption>ISDA (NASA/pc4)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
@@ -871,7 +871,7 @@
 
 
 <table align="center" style="width:100%; border:#000 solid; border-width:1px 0"> 
-    <caption>AdaBoostClassifier (NASA/pc5)</caption> 
+    <caption>ISDA (NASA/pc5)</caption> 
     <thead style="border-bottom:#000 1px solid;"> 
         <tr> 
             <th style="border:0"></th> 
