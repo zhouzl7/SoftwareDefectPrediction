@@ -1,0 +1,122 @@
+{
+    "ant1": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.0001,
+        "yScaler": 100000,
+        "threshold": 6
+    },
+    "ivy2": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 1.8
+    },
+    "jedit4": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 10000000,
+        "threshold": 8
+    },
+    "lucene2": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.0001,
+        "yScaler": 100000,
+        "threshold": 4
+    },
+    "synapse1": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.0001,
+        "yScaler": 100000,
+        "threshold": 3
+    },
+    "velocity1": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 10000000,
+        "threshold": -1.0
+    },
+    "xalan2": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.0001,
+        "yScaler": 100000,
+        "threshold": 0.2
+    },
+    "cm1": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 2.1
+    },
+    "kc3": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 3
+    },
+    "mc2": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 0.9
+    },
+    "mw1": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 2
+    },
+    "pc1": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 4
+    },
+    "pc3": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 9
+    },
+    "pc4": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.00001,
+        "yScaler": 1000000,
+        "threshold": 18
+    },
+    "pc5": {
+        "labelRatio": 0.99,
+        "Gamma": 2,
+        "Mu": 0.9,
+        "xMaxScaler": 0.000001,
+        "yScaler": 100000000,
+        "threshold": 2.1
+    }
+}
