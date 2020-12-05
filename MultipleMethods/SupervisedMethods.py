@@ -19,12 +19,17 @@ from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 from sklearn.svm import SVC
+
+from baggingPU import BaggingClassifierPU
+
 import json
 import os
 import numpy as np
 
 
 def run(data_train, data_test, clf_name):
+    X_train, y_train = train_data_process(data_train)
+    X_test, y_true = test_data_process(data_test)
     classifiers = {
         "XGBOD": XGBOD(random_state=0),
         "KNeighborsClassifier": KNeighborsClassifier(3),
@@ -35,11 +40,15 @@ def run(data_train, data_test, clf_name):
         "MLPClassifier": MLPClassifier(random_state=0),
         "AdaBoostClassifier": AdaBoostClassifier(),
         "GaussianNB": GaussianNB(),
-        "QuadraticDiscriminantAnalysis": QuadraticDiscriminantAnalysis()
+        "QuadraticDiscriminantAnalysis": QuadraticDiscriminantAnalysis(),
+        "BaggingClassifierPU": BaggingClassifierPU(
+            DecisionTreeClassifier(),
+            n_estimators=1000,  # 1000 trees as usual
+            max_samples=sum(y_train),  # Balance the positives and unlabeled in each bag
+            n_jobs=-1  # Use all cores
+        )
     }
 
-    X_train, y_train = train_data_process(data_train)
-    X_test, y_true = test_data_process(data_test)
     clf = classifiers[clf_name]
     try:
         clf.fit(X_train, y_train)
@@ -86,7 +95,7 @@ if __name__ == '__main__':
     NASA = ['cm1', 'kc3', 'mc2', 'mw1', 'pc1', 'pc3', 'pc4', 'pc5']
     CK = ['ant1', 'ivy2', 'jedit4', 'lucene2', 'synapse1', 'velocity1', 'xalan2']
 
-    clf_name = 'KNeighborsClassifier'
+    clf_name = 'BaggingClassifierPU'
 
     for dataset in NASA:
         data_name_train = dataset + 'train'

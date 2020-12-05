@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "CK",
+    "subDataset": "lucene2",
+    "result": [
+        {
+            "train samples": "33",
+            "defective train samples": "20",
+            "precision": 0.56,
+            "recall": 0.5355191256830601,
+            "pf": 0.6209677419354839,
+            "F-measure": 0.547486033519553,
+            "accuracy": 0.4723127035830619,
+            "AUC": 0.4572756918737882
+        },
+        {
+            "train samples": "67",
+            "defective train samples": "40",
+            "precision": 0.6162162162162163,
+            "recall": 0.6993865030674846,
+            "pf": 0.6454545454545455,
+            "F-measure": 0.6551724137931035,
+            "accuracy": 0.5604395604395604,
+            "AUC": 0.5269659788064696
+        },
+        {
+            "train samples": "101",
+            "defective train samples": "60",
+            "precision": 0.6506849315068494,
+            "recall": 0.6643356643356644,
+            "pf": 0.53125,
+            "F-measure": 0.6574394463667821,
+            "accuracy": 0.5857740585774058,
+            "AUC": 0.5665428321678322
+        }
+    ]
+}

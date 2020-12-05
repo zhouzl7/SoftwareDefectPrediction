@@ -1,0 +1,10 @@
+{
+    "method": "ISDA",
+    "dataset": "CK",
+    "subDataset": "velocity1",
+    "result": [
+        "division by zero",
+        "division by zero",
+        "division by zero"
+    ]
+}

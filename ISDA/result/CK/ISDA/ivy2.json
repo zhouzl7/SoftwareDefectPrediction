@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "CK",
+    "subDataset": "ivy2",
+    "result": [
+        {
+            "train samples": "35",
+            "defective train samples": "4",
+            "precision": 0.2391304347826087,
+            "recall": 0.3055555555555556,
+            "pf": 0.12455516014234876,
+            "F-measure": 0.2682926829268293,
+            "accuracy": 0.8107255520504731,
+            "AUC": 0.5905001977066033
+        },
+        {
+            "train samples": "70",
+            "defective train samples": "8",
+            "precision": 0.4583333333333333,
+            "recall": 0.34375,
+            "pf": 0.052,
+            "F-measure": 0.39285714285714285,
+            "accuracy": 0.8794326241134752,
+            "AUC": 0.645875
+        },
+        {
+            "train samples": "105",
+            "defective train samples": "12",
+            "precision": 0.3333333333333333,
+            "recall": 0.2857142857142857,
+            "pf": 0.0730593607305936,
+            "F-measure": 0.30769230769230765,
+            "accuracy": 0.854251012145749,
+            "AUC": 0.606327462491846
+        }
+    ]
+}

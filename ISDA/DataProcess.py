@@ -30,4 +30,4 @@ def train_data_process(data):
 
 def test_data_process(data):
     n, m = data.shape
-    return data[:, 0:m-1], (data[:, m-1] < 0).astype(int)
+    return data[:, 0:m-1], (data[:, m-1] > 0).astype(int)

@@ -1,0 +1,10 @@
+{
+    "method": "BaggingClassifierPU",
+    "dataset": "CK",
+    "subDataset": "lucene2",
+    "result": [
+        "max_samples must be positive and no larger than the number of unlabeled points",
+        "max_samples must be positive and no larger than the number of unlabeled points",
+        "max_samples must be positive and no larger than the number of unlabeled points"
+    ]
+}

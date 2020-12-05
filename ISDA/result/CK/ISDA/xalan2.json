@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "CK",
+    "subDataset": "xalan2",
+    "result": [
+        {
+            "train samples": "79",
+            "defective train samples": "38",
+            "precision": 0.5866666666666667,
+            "recall": 0.6303724928366762,
+            "pf": 0.41333333333333333,
+            "F-measure": 0.6077348066298343,
+            "accuracy": 0.6077348066298343,
+            "AUC": 0.6085195797516715
+        },
+        {
+            "train samples": "160",
+            "defective train samples": "77",
+            "precision": 0.5539568345323741,
+            "recall": 0.4967741935483871,
+            "pf": 0.37237237237237236,
+            "F-measure": 0.5238095238095238,
+            "accuracy": 0.5645412130637636,
+            "AUC": 0.5622009105880074
+        },
+        {
+            "train samples": "240",
+            "defective train samples": "116",
+            "precision": 0.5475285171102662,
+            "recall": 0.5313653136531366,
+            "pf": 0.4075342465753425,
+            "F-measure": 0.5393258426966292,
+            "accuracy": 0.5630550621669627,
+            "AUC": 0.561915533538897
+        }
+    ]
+}

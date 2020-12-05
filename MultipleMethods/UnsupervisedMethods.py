@@ -11,10 +11,6 @@ from DataProcess import load_data, train_data_process, test_data_process
 from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_score, accuracy_score
 
 from pyod.models.cblof import CBLOF
-from pyod.models.vae import VAE
-from pyod.models.so_gaal import SO_GAAL
-from pyod.models.mo_gaal import MO_GAAL
-from pyod.models.auto_encoder import AutoEncoder
 
 import json
 import os
@@ -24,10 +20,6 @@ import numpy as np
 def run(data_train, data_test, clf_name):
     classifiers = {
         "CBLOF": CBLOF(random_state=0),
-        "VAE": VAE(epochs=30, contamination=0.1, gamma=0.8, capacity=0.2),
-        "SO_GAAL": SO_GAAL(contamination=0.1),
-        "MO_GAAL": MO_GAAL(k=3, stop_epochs=2, contamination=0.1),
-        "AutoEncoder": AutoEncoder(epochs=30, contamination=0.1)
     }
 
     X_train, y_train = train_data_process(data_train)
@@ -78,7 +70,7 @@ if __name__ == '__main__':
     NASA = ['cm1', 'kc3', 'mc2', 'mw1', 'pc1', 'pc3', 'pc4', 'pc5']
     CK = ['ant1', 'ivy2', 'jedit4', 'lucene2', 'synapse1', 'velocity1', 'xalan2']
 
-    clf_name = 'VAE'
+    clf_name = 'AutoEncoder'
 
     for dataset in NASA:
         data_name_train = dataset + 'train'

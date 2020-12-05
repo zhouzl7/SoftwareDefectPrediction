@@ -1,0 +1,28 @@
+{
+    "method": "ISDA",
+    "dataset": "NASA",
+    "subDataset": "mw1",
+    "result": [
+        "division by zero",
+        {
+            "train samples": "50",
+            "defective train samples": "5",
+            "precision": 0.13793103448275862,
+            "recall": 0.18181818181818182,
+            "pf": 0.13812154696132597,
+            "F-measure": 0.1568627450980392,
+            "accuracy": 0.7881773399014779,
+            "AUC": 0.521848317428428
+        },
+        {
+            "train samples": "75",
+            "defective train samples": "8",
+            "precision": 0.05263157894736842,
+            "recall": 0.05263157894736842,
+            "pf": 0.11320754716981132,
+            "F-measure": 0.05263157894736842,
+            "accuracy": 0.797752808988764,
+            "AUC": 0.46971201588877853
+        }
+    ]
+}

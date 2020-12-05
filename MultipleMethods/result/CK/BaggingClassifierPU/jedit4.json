@@ -1,0 +1,37 @@
+{
+    "method": "BaggingClassifierPU",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.327683615819209,
+            "recall": 0.8529411764705882,
+            "pf": 0.5721153846153846,
+            "F-measure": 0.473469387755102,
+            "accuracy": 0.532608695652174,
+            "AUC": 0.6404128959276019
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.36363636363636365,
+            "recall": 0.8,
+            "pf": 0.4540540540540541,
+            "F-measure": 0.5000000000000001,
+            "accuracy": 0.6081632653061224,
+            "AUC": 0.672972972972973
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.4074074074074074,
+            "recall": 0.6226415094339622,
+            "pf": 0.2962962962962963,
+            "F-measure": 0.49253731343283585,
+            "accuracy": 0.6837209302325581,
+            "AUC": 0.6631726065688329
+        }
+    ]
+}

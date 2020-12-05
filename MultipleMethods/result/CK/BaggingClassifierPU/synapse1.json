@@ -1,0 +1,37 @@
+{
+    "method": "BaggingClassifierPU",
+    "dataset": "CK",
+    "subDataset": "synapse1",
+    "result": [
+        {
+            "train samples": "25",
+            "defective train samples": "8",
+            "precision": 0.48314606741573035,
+            "recall": 0.5512820512820513,
+            "pf": 0.3006535947712418,
+            "F-measure": 0.5149700598802396,
+            "accuracy": 0.6493506493506493,
+            "AUC": 0.6253142282554047
+        },
+        {
+            "train samples": "51",
+            "defective train samples": "17",
+            "precision": 0.4731182795698925,
+            "recall": 0.6376811594202898,
+            "pf": 0.3602941176470588,
+            "F-measure": 0.5432098765432098,
+            "accuracy": 0.6390243902439025,
+            "AUC": 0.6386935208866155
+        },
+        {
+            "train samples": "76",
+            "defective train samples": "25",
+            "precision": 0.5252525252525253,
+            "recall": 0.8524590163934426,
+            "pf": 0.3949579831932773,
+            "F-measure": 0.6500000000000001,
+            "accuracy": 0.6888888888888889,
+            "AUC": 0.7287505166000827
+        }
+    ]
+}

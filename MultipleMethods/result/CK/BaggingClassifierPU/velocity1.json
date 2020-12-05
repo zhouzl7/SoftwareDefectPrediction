@@ -1,0 +1,10 @@
+{
+    "method": "BaggingClassifierPU",
+    "dataset": "CK",
+    "subDataset": "velocity1",
+    "result": [
+        "low >= high",
+        "low >= high",
+        "low >= high"
+    ]
+}

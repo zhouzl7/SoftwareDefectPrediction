@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "CK",
+    "subDataset": "ant1",
+    "result": [
+        {
+            "train samples": "34",
+            "defective train samples": "9",
+            "precision": 0.4666666666666667,
+            "recall": 0.42168674698795183,
+            "pf": 0.17094017094017094,
+            "F-measure": 0.4430379746835443,
+            "accuracy": 0.722397476340694,
+            "AUC": 0.6253732880238904
+        },
+        {
+            "train samples": "69",
+            "defective train samples": "18",
+            "precision": 0.47368421052631576,
+            "recall": 0.4864864864864865,
+            "pf": 0.19230769230769232,
+            "F-measure": 0.4799999999999999,
+            "accuracy": 0.723404255319149,
+            "AUC": 0.6470893970893971
+        },
+        {
+            "train samples": "104",
+            "defective train samples": "27",
+            "precision": 0.543859649122807,
+            "recall": 0.47692307692307695,
+            "pf": 0.14285714285714285,
+            "F-measure": 0.5081967213114754,
+            "accuracy": 0.757085020242915,
+            "AUC": 0.6670329670329671
+        }
+    ]
+}

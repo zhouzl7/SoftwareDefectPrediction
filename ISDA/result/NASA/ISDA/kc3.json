@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "NASA",
+    "subDataset": "kc3",
+    "result": [
+        {
+            "train samples": "18",
+            "defective train samples": "3",
+            "precision": 0.2222222222222222,
+            "recall": 0.12121212121212122,
+            "pf": 0.0979020979020979,
+            "F-measure": 0.1568627450980392,
+            "accuracy": 0.7556818181818182,
+            "AUC": 0.5116550116550117
+        },
+        {
+            "train samples": "38",
+            "defective train samples": "7",
+            "precision": 0.3333333333333333,
+            "recall": 0.27586206896551724,
+            "pf": 0.12598425196850394,
+            "F-measure": 0.3018867924528302,
+            "accuracy": 0.7628205128205128,
+            "AUC": 0.5749389084985067
+        },
+        {
+            "train samples": "57",
+            "defective train samples": "10",
+            "precision": 0.1875,
+            "recall": 0.23076923076923078,
+            "pf": 0.23423423423423423,
+            "F-measure": 0.20689655172413793,
+            "accuracy": 0.6642335766423357,
+            "AUC": 0.4982674982674983
+        }
+    ]
+}

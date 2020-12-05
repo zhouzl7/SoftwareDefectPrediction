@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "CK",
+    "subDataset": "jedit4",
+    "result": [
+        {
+            "train samples": "30",
+            "defective train samples": "7",
+            "precision": 0.35,
+            "recall": 0.3088235294117647,
+            "pf": 0.1875,
+            "F-measure": 0.328125,
+            "accuracy": 0.6884057971014492,
+            "AUC": 0.5606617647058824
+        },
+        {
+            "train samples": "61",
+            "defective train samples": "15",
+            "precision": 0.2786885245901639,
+            "recall": 0.2833333333333333,
+            "pf": 0.23783783783783785,
+            "F-measure": 0.28099173553719003,
+            "accuracy": 0.6448979591836734,
+            "AUC": 0.5227477477477477
+        },
+        {
+            "train samples": "91",
+            "defective train samples": "22",
+            "precision": 0.39344262295081966,
+            "recall": 0.4528301886792453,
+            "pf": 0.22839506172839505,
+            "F-measure": 0.42105263157894735,
+            "accuracy": 0.6930232558139535,
+            "AUC": 0.612217563475425
+        }
+    ]
+}

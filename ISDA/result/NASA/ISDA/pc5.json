@@ -1,0 +1,37 @@
+{
+    "method": "ISDA",
+    "dataset": "NASA",
+    "subDataset": "pc5",
+    "result": [
+        {
+            "train samples": "171",
+            "defective train samples": "47",
+            "precision": 0.33729216152019004,
+            "recall": 0.33490566037735847,
+            "pf": 0.25,
+            "F-measure": 0.336094674556213,
+            "accuracy": 0.6357142857142857,
+            "AUC": 0.5424528301886792
+        },
+        {
+            "train samples": "342",
+            "defective train samples": "94",
+            "precision": 0.4022346368715084,
+            "recall": 0.3819628647214854,
+            "pf": 0.2157258064516129,
+            "F-measure": 0.39183673469387753,
+            "accuracy": 0.6734842951059167,
+            "AUC": 0.5831185291349363
+        },
+        {
+            "train samples": "513",
+            "defective train samples": "141",
+            "precision": 0.32558139534883723,
+            "recall": 0.296969696969697,
+            "pf": 0.23387096774193547,
+            "F-measure": 0.31061806656101426,
+            "accuracy": 0.6368948247078464,
+            "AUC": 0.5315493646138807
+        }
+    ]
+}
